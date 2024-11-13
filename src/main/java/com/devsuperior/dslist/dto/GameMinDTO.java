@@ -9,7 +9,7 @@ public class GameMinDTO {
 	private Integer year;
 	private String imgUrl;
 	private String shortDescription;
-	
+		
 	public GameMinDTO() {};
 	
 	public GameMinDTO(Game gameEntity) {
@@ -48,5 +48,5 @@ public class GameMinDTO {
 	public String getShortDescription() {
 		return shortDescription;
 	}
-		
+
 }
